@@ -17,7 +17,7 @@ public class ApplicationsDAO {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connection = DriverManager.getConnection(connectionUrl, "root", "Dl9f693");
+			connection = DriverManager.getConnection(connectionUrl, "root", "");
 		} catch (Exception e) {
 			e.printStackTrace();
 		} 
